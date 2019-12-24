@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    padding: 10px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+.post-profile-image{
+    width: 70px;
+    height: 70px;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.mySlides {
+    display: none;
+}
+
+#pf-img-top-bar {
+    width: 40px;
+    height: 40px;
+}
+
+#pf-img-in-edit-div {
+    width: 120px;
+    height: 120px;
+}
+
+.progress {
+    height: 12px;
+}
+
+@media only screen and (max-width: 599px) 
+{
+    .post-profile-image{
+        width: 55px;
+        height: 55px;
+        margin-bottom: 1px;
+    }
+    .post-container {
+        width: 100% !important;
+        height: auto;
+    }
+
+    .mb-1 {
+        margin-bottom: 0.1rem !important;
+    }
+
+    .ml-2 {
+        margin-left: 0.2rem !important;
+    }
+
+    #profile-info {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    #content-container {
+        font-size: 12px;
+    }
+
+    .col-md-6,
+    .col-sm-6,
+    .col-xs-6 {
+        width: 50%;
+    }
+
+    .col-12 {
+        width: 61%;
+    }
+    .col-7 {
+        width: 50%;
+    }
+
+    .one-img,
+    .three-img,
+    .two-img {
+        height: 170px;
+
+    }
+
+    .my-3 {
+        margin-bottom: 2.5rem !important;
+    }
+
+    .post-caption {
+        font-size: 17px;
+    }
+
+    #imgViewModal {
+        position: relative;
+        float: center;
+        background-color: black;
+        width: 100%;
+        height: 100%;
+    }
+
+    .pl-5 {
+        padding-left: 2.5rem !important;
+    }
+
+    .pr-5 {
+        padding-right: 2.5rem !important;
+    }
+
+    .pb-5 {
+        padding-bottom: 1.5rem !important;
+    }
+
+    .user-view-list {
+        width: 80px;
+    }
+
+    #pf-img-top-bar {
+        width: 40px;
+        height: 40px;
+        margin: 0.1rem;
+    }
+    .lead.flex-grow-1, .ongoing-info {
+        font-size: 12px;
+    }
+    .p-5, .p-3 {
+        padding: .5rem !important;
+    }
+    .user-item-container, .ongoing-info{
+        margin-right: .7rem !important;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .post-container {
+        width: 68% !important;
+    }
+
+    .my-3 {
+        margin-bottom: 2.5rem !important;
+    }
+
+    .mb-1 {
+        margin-bottom: 0.25rem !important;
+    }
+
+    .ml-2 {
+        margin-left: 0.5rem !important;
+    }
+
+    .one-img,
+    .three-img,
+    .two-img {
+        height: 300px;
+    }
+
+    .user-view-list {
+        width: 150px;
+    }
+
+    .col-12 {
+        width: 70%;
+    }
+
+    #imgViewModal {
+        position: relative;
+        float: center;
+        background-color: black;
+        width: 100%;
+        height: 100%;
+    }
+
+    #pf-img-top-bar {
+        width: 30px;
+        height: 30px;
+        margin: 0.1rem;
+    }
+}
+
+@media only screen and (min-width: 801px) {
+    .post-container {
+        width: 60%;
+    }
+
+    .mb-1 {
+        margin-bottom: 0.25rem !important;
+    }
+
+    .ml-2 {
+        margin-left: 0.5rem !important;
+    }
+
+    .col-12 {
+        width: 95%;
+    }
+
+    .one-img,
+    .three-img,
+    .two-img {
+        height: 300px;
+    }
+
+    .user-view-list {
+        width: 150px;
+    }
+
+    #imgViewModal {
+        position: relative;
+        float: center;
+        background-color: black;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #post-modal-content {
+        background-color: black;
+        margin-top: 30%;
+        padding-top: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    #pf-img-top-bar {
+        width: 40px;
+        height: 40px;
+    }
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 60px;
+    }
+}
+
+@media only screen and (min-height: 667px) 
+{
+    #post-modal-content {
+        background-color: black;
+        margin-top: 45%;
+        width: 100%;
+        height: 100%;
+    }
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        padding: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 60px;
+    }
+}
+
+
+@media only screen and (min-height: 740px) 
+{
+    #post-modal-content {
+        background-color: black;
+        margin-top: 54%;
+        width: 100%;
+        height: 100%;
+    }
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 38%;
+        width: auto;
+        padding: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 60px;
+    }
+}
+
+
+@media only screen and (min-height: 1023px) 
+{
+    #post-modal-content {
+        background-color: black;
+        margin-top: 40%;
+        width: 100%;
+        height: 100%;
+    }
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 34%;
+        width: auto;
+        padding: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 60px;
+    }
+}
+
+
+@media only screen and (height: 1280px) 
+{
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 28%;
+        width: auto;
+        padding: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 60px;
+    }
+}
+
+.sticky {
+    position: fixed;
+    top: 20px;
+}

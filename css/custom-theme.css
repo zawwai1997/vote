@@ -1,0 +1,107 @@
+            .theme-color {
+                background-color: #632081;
+                ;
+            }
+            
+            .theme-text-color {
+                color: #fff;
+            }
+            
+            .theme-menu-icon {
+                width: 100px;
+                height: 100px;
+                margin: 0 auto;
+                border: 2px solid #632081;
+                border-radius: 50%;
+                padding: 15px;
+            }
+            
+            .theme-menu-icon-label {
+                margin-top: -20px;
+            }
+            
+            .theme-my-guys {
+                background-color: rgba(239, 108, 0, 0.034);
+                border-left: 5px solid #632081;
+                border-radius: 0.3rem;
+                color: #ffa70d;
+                padding: 0.3rem;
+            }
+            
+            .theme-cover-div {
+
+                background-image: url("../img/bg-img5.jpg");
+                background-position: bottom;
+                background-size: cover;
+                overflow: hidden;
+                width: 100%;
+                height: 220px;
+                line-height: 200px;
+
+            }
+            
+            .theme-cover-div .theme-cover-title {
+                display: inline-block;
+                line-height: normal;
+                z-index: 30;
+                position: relative;
+            }
+            
+            .theme-overlay {
+                position: absolute;
+                background-color: #632081;
+                width: 100%;
+                height: 200px;
+                top: 0;
+                left: 0;
+                opacity: 0;
+                line-height: 200px;
+            }
+            
+            .theme-button {
+                color: #632081;
+                background-color: transparent;
+                background-image: none;
+                border-color: #632081
+            }
+            
+            .theme-button:hover {
+                color: #fff;
+                background-color: #632081;
+                border-color: #632081
+            }
+            
+            .theme-button.focus,
+            .theme-button:focus {
+                box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)
+            }
+            
+            .image-container {
+                transition: width 2s;
+                overflow: hidden;
+                background: red;
+                position: relative;
+                width: 100%;
+            }
+            
+            .image-container>img {
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                right: 0%;
+                bottom: 0%;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+            
+            .winner-div .theme-kw-icon,
+            .winner-div .theme-qw-icon {
+                width: 200px;
+                height: 200px;
+                margin: 0 auto;
+                border-radius: 50%;
+                border: 4px solid #632081;
+                margin-bottom: -30px;
+            }
